@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Routes from './routes';
 
 import { render } from '@testing-library/react';
 
@@ -9,11 +10,8 @@ import Main from './pages/main';
 const App = () => (
   <div className="App">
     <Header />
-    <Main />
+    <Routes />
   </div>
 );
-  
-    
-
 
 export default App;
